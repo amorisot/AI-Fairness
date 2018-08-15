@@ -345,7 +345,7 @@ pickled = [history_initials_blue, history_initials_orange,
 	history_final_blue_fair, history_final_orange_fair, history_cutoff_fair, 
 	history_final_blue_unfair, history_final_orange_unfair, history_cutoff_unfair]
 
-file_Name = "experiment_results1.pkl"
+file_Name = "experiment_results2.pkl"
 with open(file_Name, 'wb') as f:
 	pickle.dump(pickled, f)
 
